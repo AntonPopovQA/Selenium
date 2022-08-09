@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SeleniumTest {
-    private WebDriver driver;
+    WebDriver driver;
 
     @BeforeAll
     static void setUpAll() {
@@ -22,10 +22,6 @@ public class SeleniumTest {
 
     @BeforeEach
     void setUp() {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--no-sandbox");
-        options.addArguments("--headless");
         driver = new ChromeDriver();
     }
 

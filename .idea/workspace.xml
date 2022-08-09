@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fb2920e3-8477-4f22-af14-cba8ddb191a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/SeleniumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +49,7 @@
       <command value="gradle test" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SeleniumTest.shouldTestForm (1)">
+  <component name="RunManager" selected="Gradle.SeleniumTest (1)">
     <configuration name="Selenium [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -143,8 +142,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SeleniumTest.shouldTestForm (1)" />
         <item itemvalue="Gradle.SeleniumTest (1)" />
+        <item itemvalue="Gradle.SeleniumTest.shouldTestForm (1)" />
         <item itemvalue="Gradle.Selenium [test]" />
         <item itemvalue="Gradle.SeleniumTest.shouldTestSomething" />
       </list>
