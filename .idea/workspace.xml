@@ -18,6 +18,16 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -49,8 +59,8 @@
       <command value="gradle test" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SeleniumTest.shouldInvalidForm">
-    <configuration name="SeleniumTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SeleniumTest">
+    <configuration name="SeleniumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -73,7 +83,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SeleniumTest.shouldInvalidForm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SeleniumTest.shouldInvalidFormCheckBox" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -86,7 +96,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netology.SeleniumTest.shouldInvalidForm&quot;" />
+            <option value="&quot;ru.netology.SeleniumTest.shouldInvalidFormCheckBox&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -96,7 +106,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SeleniumTest.shouldInvalidName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SeleniumTest.shouldInvalidFormName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -109,7 +119,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netology.SeleniumTest.shouldInvalidName&quot;" />
+            <option value="&quot;ru.netology.SeleniumTest.shouldInvalidFormName&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SeleniumTest.shouldInvalidFormTelephone" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.SeleniumTest.shouldInvalidFormTelephone&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -142,36 +175,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SeleniumTest.shouldNoCheckbox" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.netology.SeleniumTest.shouldNoCheckbox&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SeleniumTest.shouldInvalidForm" />
+        <item itemvalue="Gradle.SeleniumTest" />
+        <item itemvalue="Gradle.SeleniumTest.shouldInvalidFormCheckBox" />
+        <item itemvalue="Gradle.SeleniumTest.shouldInvalidFormTelephone" />
+        <item itemvalue="Gradle.SeleniumTest.shouldInvalidFormName" />
         <item itemvalue="Gradle.SeleniumTest.shouldInvalidTelephone" />
-        <item itemvalue="Gradle.SeleniumTest (1)" />
-        <item itemvalue="Gradle.SeleniumTest.shouldNoCheckbox" />
-        <item itemvalue="Gradle.SeleniumTest.shouldInvalidName" />
       </list>
     </recent_temporary>
   </component>
